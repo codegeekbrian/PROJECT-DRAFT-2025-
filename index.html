@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soko na Hali ya Hewa</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>🌽 Soko na Hali ya Hewa</h1>
+    <p>Bei za soko • Hali ya hewa • Wateja wa karibu</p>
+  </header>
+
+  <main>
+    <!-- Crop Prices -->
+    <section id="prices">
+      <h2>Bei za Soko Leo (KSh/kg)</h2>
+      <select id="marketSelect">
+        <option value="eldoret">Eldoret</option>
+        <option value="kisumu">Kisumu</option>
+        <option value="nakuru">Nakuru</option>
+      </select>
+      <div id="priceList"></div>
+    </section>
+
+    <!-- Weather -->
+    <section id="weather">
+      <h2>Hali ya Hewa</h2>
+      <input type="text" id="locationInput" placeholder="E.g., Kitale">
+      <button onclick="getWeather()">Tafuta</button>
+      <div id="weatherResult"></div>
+    </section>
+
+    <!-- Buyers -->
+    <section id="buyers">
+      <h2>Wateja na Vikundi</h2>
+      <div id="buyerList"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Free tool for Kenyan farmers. November 2025.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

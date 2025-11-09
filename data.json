@@ -1,0 +1,12 @@
+{
+  "prices": {
+    "eldoret": { "maize": 45, "beans": 120, "potatoes": 35 },
+    "kisumu": { "maize": 48, "beans": 115, "potatoes": 38 },
+    "nakuru": { "maize": 42, "beans": 125, "potatoes": 32 }
+  },
+  "buyers": [
+    { "name": "Cereal Buyers Co-op", "phone": "0722 123 456", "location": "Eldoret" },
+    { "name": "Western Veg Traders", "phone": "0733 789 012", "location": "Kisumu" },
+    { "name": "Rift Valley Farmers Group", "phone": "0711 456 789", "location": "Nakuru" }
+  ]
+}
